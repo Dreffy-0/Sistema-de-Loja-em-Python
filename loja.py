@@ -37,7 +37,7 @@ class Loja:
             total *= 1.00
         elif opcao == "4":
             total *= 1.05
-            parcelas = int(input("Em quantas parcelas deseja pagare? "))
+            parcelas = int(input("Em quantas parcelas deseja pagar? "))
             valor_parcela = total / parcelas
             print(f"Pagamento em {parcelas}x de R${valor_parcela:.2f}")
             
